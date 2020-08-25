@@ -533,41 +533,6 @@ header a {
     font-family: 'Spectral', serif;
 }
 
-.committee .EC {
-    font-size: large;
-    font-weight: normal;
-    font-family: 'Spectral', serif;
-    color: rgb(19, 68, 80);
-    letter-spacing: 1px;
-    line-height: 30pt;
-    padding: 70px;
-    margin: 40px;
-    text-align: center;
-}
-
-.committee1 > div {
-    background-color: white;
-    width: 300px;
-}
-
-.committee1 img {
-    display: flex;
-    align-items: flex-start;
-}
-
-.committee1 .position h2 {
-    color: black;
-    font-family: 'Spectral', serif;
-    font-weight: lighter;
-    text-align: center;
-}
-
-.committee1 .position h3 {
-    color:teal;
-    font-weight: lighter;
-    text-align: center;
-}
-
 .fllogo {
     text-align: center;
     margin-bottom: 50px;
