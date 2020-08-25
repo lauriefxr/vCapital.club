@@ -635,7 +635,7 @@ header a {
 }
 
 .join {
-    background-color: white;
+    background-color: rgb(227, 237, 240);
     float: left;
     height: max-content;
     width: 100%;
