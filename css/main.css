@@ -906,28 +906,17 @@ footer hr {
     }
 }
 
+.david * {
+    box-sizing: border-box;
+}
+
 .david {
     height: max-content;
-    background-color: rgb(227, 237, 240);
     width: 100%;
     float: left;
     overflow: hidden;
 }
 
-.david h1 {
-    font-family: 'Spectral', serif;
-    font-weight: lighter;
-    margin-top: 120px;
-    display: flex;
-    justify-content: center;
-    color: black;
-}
-
-.david hr {
-    color: black;
-    margin-left: 120px;
-    margin-right: 100px;
-}
 .david p {
     font-family: 'Spectral', serif;
     margin: 70px;
@@ -935,23 +924,116 @@ footer hr {
     line-height: 40px;
     font-size: large;
 }
-.dd {
-    margin-bottom: 150px;
-    margin-top: 70px;
+
+.ii {
+    padding: 10px;
+    background-image: url(28.jpg);
+    background-size: cover;
+    height: max-content;
 }
 
-.dv {
-    display: flex;
+.ii h1 {
+    margin: 70px;
+    margin-bottom: 15px;
+    color: white;
+    font-family: 'Spectral', serif;
+    font-size: 55px;
 }
 
-.dd img {
-    margin-left: 120px;
+.comma {
+    font-size: 70px;
+}
+
+.david h3 {
+    color: white;
+    font-style: italic;
+    margin-left: 50px;
+    line-height: normal;
+    font-size: 23px;
+    font-family: 'Spectral', serif;
+}
+
+.quote {
+    color: white;
+    width: 580px;
+    margin-top: 10px;
+    font-family: 'Spectral', serif;
+    background-color: rgb(16, 16, 105);
+    opacity: 0.8;
+    padding: 45px;
+}
+
+.quote a {
+    color: white;
+    font-style: italic;
+}
+
+.sas div, .micro div, .dcf div {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.sas h2, .micro h2, .dcf h2 {
+    font-family: 'Spectral', serif;
+    font-size: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 250px;
+    color: white;
+}
+
+.ar {
+    text-align: center;
+    background-image: url(23.png);
+    background-size: cover;
+    height: 650px;
+}
+
+.aro {
+    height: 650px;
+}
+
+.ar p, .artt p, .arff p {
+    font-size: larger;
+    color: white;
+}
+
+.artt {
+    text-align: center;
+    background-image: url(24.jpeg);
+    background-size: cover;
+    height: 830px;
+}
+
+.art {
+    height: 830px;
+}
+
+.art p {
+    line-height: 34px;
+}
+
+.arff {
+    text-align: center;
+    background-image: url(25.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+.arf {
+    height: 800px;
+}
+
+.article a {
+    font-family: 'Spectral', serif;
+    color: blue;
 }
 
 @media only screen and (max-width: 667px) {
     .david {
         width: 100%;
-        height: 800px;
+        height: max-content;
     }
     .ib h1 {
         margin: 30px;
@@ -966,17 +1048,41 @@ footer hr {
         letter-spacing: 1px;
         line-height: 33px;
     }
-    .dv {
-        display: flex;
-        flex-wrap: wrap;
+    .quote {
+        width: 300px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 1109px) {
+    .sas div, .micro div, .dcf div {
         width: 100%;
     }
-    .dv img {
-        justify-content: center;
-        margin: auto;
+
+    .sas, .micro {
+        display: flex;
+        flex-direction: column-reverse;
     }
-    .dd {
-        margin-bottom: 70px;
+    .dcf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ar, .aro, .artt, .art, .arff, .arf {
+        height: max-content;
+    }
+    .sas h2, .micro h2, .dcf h2 {
+        font-size: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 150px;
+    }
+    .ar p, .artt p, .arff p {
+        margin: 40px;
+    }
+    .david p {
+        margin: 30px;
+        line-height: 30px;
     }
 }
 
@@ -1387,4 +1493,21 @@ footer hr {
 .emailaddress {
     text-decoration: underline;
     color: #007bb5;
+}
+
+.signup a {
+    color: white;
+    font-family: 'Spectral', serif;
+    font-size: large;
+    text-decoration: none;
+}
+
+.signup {
+    width: 280px;
+    height: 55px;
+    background-color: rgb(35, 134, 167); 
+    border: none;
+}
+.vcform {
+    margin-top: 40px;
 }
